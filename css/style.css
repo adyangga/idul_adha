@@ -1,0 +1,446 @@
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* RACE TO PARADISE */
+html{
+    scroll-behavior: smooth;
+}
+@font-face{
+    font-family: 'RACETOPARADISE';
+    src: url(../assets/font/RACETOPARADISE/02RaceToParadise.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+.body{
+    font-family: sans-serif;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.header-text{
+    font-family: 'RACETOPARADISE';
+    font-style: normal;
+    font-size: 72px;
+    font-weight: 500;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    -webkit-text-stroke: 3px #4D301E;
+}
+a{
+    font-size: 18px;
+    color: #fff;
+    -webkit-text-stroke: 1.5px #4D301E;
+}
+a:hover{
+    color: #49B1EB;
+}
+p{
+    margin-bottom: 6px;
+}
+/* HEADER */
+header{
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+#navbar{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    justify-content: space-around;
+}
+.navbar {
+    width: 100%;
+    background: #B6E7DD;
+    padding: 10px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-item{
+    margin-left: 20px;
+    font-family: 'Wendy One', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+    -webkit-text-stroke: 1px #4D301E;
+}
+.navbar-brand img{
+    width: 73px;
+    height: 51px;
+}
+.title-navbar{
+    font-family: 'RACETOPARADISE';
+    font-size: 32px;
+    font-weight: 500px;
+    -webkit-text-stroke: 2px #4D301E;
+    color: #fff;
+}
+.navbar-toggler{
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+.navbar-light {
+    width: 100%;
+    background: rgba(182, 231, 221, 0.8) !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: inherit;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* HOME */
+.home{
+    width: 100%;
+    height: 937px;
+    color: #fff;
+    background-image: url(../assets/img/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.home .container{
+    width: 1270px;
+}
+.home img{
+    max-height: 500px;
+}
+.home a{
+    padding: 4px;
+    width: 150px;
+    display: inline-block;
+    background: #E0A107;
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family: 'RACETOPARADISE';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: -0.45em;
+}
+.home-section a:hover{
+    color: #E0A107;
+}
+.btn{
+    font-family: 'RACETOPARADISE';
+    background: #8BBB4A !important;
+    display: inline-block;
+    color: #fff !important;
+    padding: 4px;
+    font-size: 24px;
+    margin-top: 60px;
+    position: relative;
+}
+.img-title{
+    width: 475px;
+    height: 213px;
+}
+.font-home{
+    position: absolute;
+    width: 475px;
+    height: 502.83px;
+    margin-top: 231px;
+    margin-bottom: 66.17px;
+}
+.text-home{
+    font-family: 'RACETOPARADISE';
+    font-size: 32px;
+    font-style: 400;
+    font-weight: 500;
+    width: 475px;
+    letter-spacing: 0.01em;
+    padding-top: 50px;
+    -webkit-text-stroke: 2px #4D301E;
+}
+#home a {
+    color: #fff;
+}
+/* SINOPSIS */
+.sinopsis{
+    font-family: 'RACETOPARADISE';
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    background-image: url(../assets/img/sinopsis.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+#sinopsis{
+    display: inline-block;
+}
+.text-sinopsis{
+    font-size: 32px;
+    -webkit-text-stroke: 2px #4D301E;
+}
+/* CAST & KARAKTER */
+.cast-karakter{
+    font-family: 'RACETOPARADISE';
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    background-image: url(../assets/img/cast_karakter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#cast{
+    display: inline-block;
+}
+.cast-title{
+    font-size: 30px;
+    -webkit-text-stroke: 1px #4D301E;
+}
+.text{
+    font-family: 'RACETOPARADISE';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-text-stroke: 1px #4D301E;
+}
+.cast-img img{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+.cast-karakter h3{
+    font-size: 56px;
+    padding: 5px;
+    margin-top: 20px;
+    -webkit-text-stroke: 2px #4D301E;
+}
+.karkater{
+    display: inline-block;
+}
+.btn-karakter{
+    color: #F4AD00 !important;
+}
+/* MAPS */
+.maps{
+    font-family: 'RACETOPARADISE';
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    background: #F4AD00 !important;
+    width: 100%;
+}
+.romawi{
+    height: 800px;
+    -webkit-text-stroke: 2px #4D301E;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .tema-maps{
+    background-image: url(../assets/img/bg_maps.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    width: 114px;
+    height: 90px;
+    box-sizing: border-box;
+    border-radius: 10px;
+} */
+.indonesia{
+    height: 800px;
+    font-size: 24px;
+    -webkit-text-stroke: 2px #4D301E;
+    /* background-image: url(../assets/img/maps_2.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mesir{
+    height: 800px;
+    font-size: 24px;
+    -webkit-text-stroke: 2px #4D301E;
+    /* background-image: url(../assets/img/maps_3.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* TRAILER */
+.trailer{
+    font-family: 'RACETOPARADISE';
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    background-image: url(../assets/img/trailer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#trailer{
+    display: inline-block;
+}
+.title-trailer{
+    font-family: 'RACETOPARADISE';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    -webkit-text-stroke: 2px #4D301E;
+}
+.video{
+    width: 770px;
+    height: 434px;
+    background: #FFFFFF;
+    border: 7px solid #4D301E;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.form-komentar{
+    width: 770px;
+    height: 423.33px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    padding: 20px;
+}
+.text-trailer{
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-text-stroke: 2px #4D301E;
+}
+.nama{
+    width: 667px;
+    height: 55.91px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.komentar{
+    width: 667px;
+    height: 79.87px;
+    font-size: 14px ;
+    padding: 10px;
+}
+.btn-komentar{
+    width: 648.98px;
+    height: 54.61px;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    background: #FEB80F;
+    margin-top: 40px;
+    -webkit-text-stroke: 2px #4D301E;
+}
+/* KREATIF */
+#tim{
+    font-family: 'RACETOPARADISE';
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    background-image: url(../assets/img/tim.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    display: inline-block;
+}
+.judul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.tim-title{
+    padding-top: 40px;
+    font-size: 20px;
+    -webkit-text-stroke: 1.5px #4D301E;
+}
+.text{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    -webkit-text-stroke: 1.5px #4D301E;
+}
+.box{
+    width: 233px;
+    height: 312px;
+    margin-bottom: 20px;
+    background-image: url(../assets/img/jurusan.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 18px;
+    color: white;
+    background: #0B84C7;
+}
+.icon-footer{
+    width:"25px";
+    height:"25px";
+    margin-left: 10px;
+}
+.icon2-footer{
+    width:"20px";
+    height:"20px";
+    margin-left: 10px;
+}
+
