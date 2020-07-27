@@ -70,8 +70,8 @@ html{
     font-style: normal;
     font-size: 72px;
     font-weight: 500;
-    padding-top: 7%;
-    padding-bottom: 3%;
+    padding-top: 9%;
+    padding-bottom: 4%;
     -webkit-text-stroke: 3px #4D301E;
 }
 a{
@@ -80,7 +80,7 @@ a{
     -webkit-text-stroke: 1.5px #4D301E;
 }
 a:hover{
-    color: #49B1EB;
+    color: #fff;
 }
 p{
     margin-bottom: 6px;
@@ -340,6 +340,7 @@ header{
     font-style: normal;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 30px;
     -webkit-text-stroke: 2px #4D301E;
 }
 .video{
@@ -370,6 +371,13 @@ header{
     margin-bottom: 10px;
     padding: 10px;
 }
+.email{
+    width: 667px;
+    height: 55.91px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
 .komentar{
     width: 667px;
     height: 79.87px;
@@ -383,8 +391,10 @@ header{
     font-weight: 500;
     font-style: normal;
     color: #fff;
+    position: center;
     background: #FEB80F;
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
     -webkit-text-stroke: 2px #4D301E;
 }
 /* KREATIF */
@@ -418,6 +428,7 @@ header{
 .box{
     width: 233px;
     height: 312px;
+    padding: 4;
     margin-bottom: 20px;
     background-image: url(../assets/img/jurusan.png) !important;
     background-size: cover;
@@ -434,13 +445,7 @@ footer {
     background: #0B84C7;
 }
 .icon-footer{
-    width:"25px";
-    height:"25px";
     margin-left: 10px;
-}
-.icon2-footer{
-    width:"20px";
-    height:"20px";
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
