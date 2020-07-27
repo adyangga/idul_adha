@@ -295,7 +295,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* .tema-maps{
+.tema-maps-title{
     background-image: url(../assets/img/bg_maps.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -304,12 +304,11 @@ header{
     height: 90px;
     box-sizing: border-box;
     border-radius: 10px;
-} */
+}
 .indonesia{
     height: 800px;
     font-size: 24px;
     -webkit-text-stroke: 2px #4D301E;
-    /* background-image: url(../assets/img/maps_2.png); */
     background-size: cover;
     background-repeat: no-repeat;
 }
