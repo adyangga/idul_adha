@@ -83,7 +83,8 @@ a:hover{
     color: #fff;
 }
 p{
-    margin-bottom: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 /* HEADER */
 header{
@@ -112,7 +113,7 @@ header{
 }
 .nav-link{
     color: #fff !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     font-weight: bold;
     padding: 0 0 5px 0 !important;
     display: unset !important;
@@ -163,10 +164,7 @@ header{
 .home .container{
     width: 1270px;
 }
-.home img{
-    max-height: 500px;
-}
-.home a{
+/* .home a{
     padding: 4px;
     width: 150px;
     display: inline-block;
@@ -184,14 +182,21 @@ header{
 }
 .home-section a:hover{
     color: #E0A107;
-}
+} */
 .btn{
+    width: 254px;
+    height: 81.83px;
     font-family: 'RACETOPARADISE';
-    background: #8BBB4A !important;
+    background-image: url(../assets/img/btn-home.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
     color: #fff !important;
-    padding: 4px;
-    font-size: 24px;
+    padding: 14px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: -0.05em;
     margin-top: 60px;
     position: relative;
 }
@@ -214,7 +219,7 @@ header{
     width: 475px;
     letter-spacing: 0.01em;
     padding-top: 50px;
-    -webkit-text-stroke: 2px #4D301E;
+    -webkit-text-stroke: 2.5px #4D301E;
 }
 #home a {
     color: #fff;
@@ -228,6 +233,7 @@ header{
     background-image: url(../assets/img/sinopsis.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 800px;
 }
@@ -247,6 +253,7 @@ header{
     background-image: url(../assets/img/cast_karakter.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
 }
 #cast{
@@ -329,6 +336,7 @@ header{
     background-image: url(../assets/img/trailer.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 1345px;
 }
@@ -344,7 +352,7 @@ header{
     -webkit-text-stroke: 2px #4D301E;
 }
 .video{
-    width: 770px;
+    width: 100%;
     height: 434px;
     background: #FFFFFF;
     border: 7px solid #4D301E;
@@ -352,7 +360,7 @@ header{
     position: relative;
 }
 .form-komentar{
-    width: 770px;
+    width: 100%;
     height: 423.33px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 6px;
@@ -365,27 +373,27 @@ header{
     -webkit-text-stroke: 2px #4D301E;
 }
 .nama{
-    width: 667px;
+    width: 100%;
     height: 55.91px;
     font-size: 14px;
     margin-bottom: 10px;
     padding: 10px;
 }
 .email{
-    width: 667px;
+    width: 100%;
     height: 55.91px;
     font-size: 14px;
     margin-bottom: 10px;
     padding: 10px;
 }
 .komentar{
-    width: 667px;
+    width: 100%;
     height: 79.87px;
     font-size: 14px ;
     padding: 10px;
 }
 .btn-komentar{
-    width: 648.98px;
+    width: 100%;
     height: 54.61px;
     font-size: 24px;
     font-weight: 500;
@@ -406,13 +414,14 @@ header{
     background-image: url(../assets/img/tim.png) !important;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 800px;
     display: inline-block;
 }
 .judul{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .tim-title{
     padding-top: 40px;
@@ -426,13 +435,13 @@ header{
     -webkit-text-stroke: 1.5px #4D301E;
 }
 .box{
-    width: 233px;
-    height: 312px;
+    width: 100%;
+    height: 320px;
     padding: 4;
     margin-bottom: 20px;
     background-image: url(../assets/img/jurusan.png) !important;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer {
