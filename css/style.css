@@ -166,7 +166,7 @@ header{
 .home img{
     max-height: 500px;
 }
-.home a{
+/* .home a{
     padding: 4px;
     width: 150px;
     display: inline-block;
@@ -184,7 +184,9 @@ header{
 }
 .home-section a:hover{
     color: #E0A107;
-}
+} */
+
+
 .btn{
     font-family: 'RACETOPARADISE';
     background: #8BBB4A !important;
@@ -195,12 +197,17 @@ header{
     margin-top: 60px;
     position: relative;
 }
+
+.btn-trailer {
+    width: 100%;
+}
+
 .img-title{
     width: 475px;
     height: 213px;
 }
 .font-home{
-    position: absolute;
+    /* position: absolute; */
     width: 475px;
     height: 502.83px;
     margin-top: 231px;
